@@ -1,4 +1,201 @@
-@charset "UTF-8";
+@charset 'utf-8';
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td,
+iframe,
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input,
+select,
+textarea {
+  color: #7a7a7a;
+  font-size: 100%;
+}
+li,
+ul,
+ol,
+dl,
+dd,
+dt,
+iframe {
+  list-style: none;
+  list-style-type: none;
+  text-indent: 0;
+}
+header,
+footer,
+section,
+article,
+nav {
+  display: block;
+}
+article,
+aside,
+dialog,
+footer,
+header,
+section,
+footer,
+nav,
+figure,
+menu {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var,
+i {
+  font-weight: 400;
+  font-style: normal;
+}
+table {
+  empty-cells: show;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+fieldset,
+img {
+  border: 0;
+}
+caption,
+th,
+div {
+  text-align: left;
+}
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: '';
+}
+button,
+input,
+select,
+textarea {
+  vertical-align: middle;
+  outline: none;
+}
+textarea {
+  overflow: auto;
+  resize: none;
+  vertical-align: top;
+}
+input,
+select,
+textarea,
+body {
+  font: 12px 'Microsoft YaHei', '微软雅黑';
+}
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  content: '.';
+}
+.clearfix {
+  clear: both;
+}
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  content: '.';
+}
+* html > body .clearfix {
+  display: inline-block;
+  width: 100%;
+}
+* html .clearfix {
+  height: 1%;
+}
+* + html .clearfix {
+  min-height: 1%;
+}
+.clear {
+  clear: both;
+}
+a {
+  text-decoration: none;
+  color: #e83426;
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #ad1408;
+}
+.u_pos_r {
+  position: relative;
+}
+.u_pos_a {
+  position: absolute;
+}
+.u_pos_f {
+  position: fixed;
+}
+.u_pos_s {
+  position: static;
+}
+.u_flo_l {
+  float: left;
+}
+.u_flo_r {
+  float: right;
+}
+.u_mar_c {
+  margin: 0 auto;
+}
+.text_ov {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
 .text {
   font-size: 12px;
   color: #b5b5b5;
@@ -12,4 +209,5 @@ h3 {
   font-size: 18px;
   text-align: left;
   color: #535353;
+  overflow: hidden;
 }
