@@ -1,0 +1,96 @@
+@charset "UTF-8";
+.header{
+    width: @w100;
+    height: 141px;
+    background: @c_bai;
+      box-shadow: 0px 3px 6px #c2c2c2;
+}
+.header-t{
+    width: @w1200;
+    height:92px;
+    margin: 0 auto;
+    overflow: hidden;
+    .header-logo{
+        a{
+            display: inline-block;
+            height: 92px;
+            line-height: 92px;
+            img{
+                display: inline-block;
+                margin-top: 16px;
+            }
+        }
+    }
+    .header-phone{
+        a{
+            display: inline-block;
+            height: 92px;
+            line-height: 112px;
+            padding-left: 58px;
+            background: url(../../images/icon-linkman.png) left center no-repeat;
+            font-size: @fz18;
+            color: @c_hei;
+        }
+    }
+}
+.header-b{
+    width: @w1200;
+    height:49px;
+    margin: 0 auto;
+    .nav{
+        width: 882px;
+        height: 49px;
+        li{
+            float: left;
+            a{
+                display: inline-block;
+                width: 144px;
+                height: 49px;
+                line-height: 49px;
+                font-size: @fz18;
+                color: @c_lan;
+                text-align: center;
+            }
+            a.pass,a:hover{
+                color: #fff !important;
+                background: @c_lan !important;
+            }
+        }
+    }
+    .search{
+        width: 274px;
+        height: 36px;
+        border:@c_cheng solid 1px;
+        overflow: hidden;
+        margin-top: 6px;
+        span{
+            display: inline-block;
+            width:82px;
+            height: 36px;
+            line-height: 36px;
+            background: @c_cheng;
+            text-align: center;
+        }
+        select{
+            background: @c_cheng;
+            border:none;
+            color: #fff;
+            font-size: @fz16;
+            option{
+                background: @c_bai;
+                color: @c_hei;
+            }
+        }
+        .search-text{
+            width: 148px;
+            height: 36px;
+            border: none;
+        }
+        .search-btn{
+            width: 34px;
+            height: 34px;
+            border:none;
+            background: url(../../images/icon-search-btn.png) center center no-repeat;
+        }
+    }
+}

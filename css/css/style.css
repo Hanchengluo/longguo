@@ -155,38 +155,12 @@ body {
 }
 a {
   text-decoration: none;
-  color: #e83426;
+  color: #4998f4;
   outline: none;
 }
 a:hover {
   text-decoration: none;
-  color: #ad1408;
-}
-.u_pos_r {
-  position: relative;
-}
-.u_pos_a {
-  position: absolute;
-}
-.u_pos_f {
-  position: fixed;
-}
-.u_pos_s {
-  position: static;
-}
-.u_flo_l {
-  float: left;
-}
-.u_flo_r {
-  float: right;
-}
-.u_mar_c {
-  margin: 0 auto;
-}
-.text_ov {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  color: #0e68d6;
 }
 .clearfix:before,
 .clearfix:after {
@@ -200,14 +174,309 @@ a:hover {
   font-size: 12px;
   color: #b5b5b5;
 }
-h2 {
+h2.tit1 {
   font-size: 24px;
   text-align: left;
   color: #4998f4;
+}
+h2.tit2 {
+  font-size: 24px;
+  text-align: left;
+  color: #4998f4;
+  padding-left: 20px;
+}
+h2.tit3 {
+  font-size: 24px;
+  text-align: left;
+  color: #ffffff;
 }
 h3 {
   font-size: 18px;
   text-align: left;
   color: #535353;
   overflow: hidden;
+}
+.u-pos-r {
+  position: relative;
+}
+.u-pos-a {
+  position: absolute;
+}
+.u-pos-f {
+  position: fixed;
+}
+.u-pos-s {
+  position: static;
+}
+.u-flo-l {
+  float: left;
+}
+.u-flo-r {
+  float: right;
+}
+.u-mar-c {
+  margin: 0 auto;
+}
+.text-ov {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: #f0f0f0;
+}
+.mian {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+.top-nav {
+  width: 100%;
+  height: 52px;
+  background: url(../../images/top-nav-bg.jpg) left center repeat-x;
+  font-size: 16px;
+}
+.top-nav-box {
+  width: 1200px;
+  height: 52px;
+  margin: 0 auto;
+}
+.top-nav-l img {
+  display: inline-block;
+  margin-right: 6px;
+  margin-top: 4px;
+}
+.top-nav-l a {
+  display: inline-block;
+  padding: 0 24px 0 10px;
+  height: 52px;
+  line-height: 52px;
+}
+.top-nav-r a {
+  display: inline-block;
+  padding-right: 14px;
+  height: 52px;
+  line-height: 52px;
+}
+.top-nav-r .r1 {
+  padding-right: 6px !important;
+}
+.header {
+  width: 100%;
+  height: 141px;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px #c2c2c2;
+}
+.header-t {
+  width: 1200px;
+  height: 92px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.header-t .header-logo a {
+  display: inline-block;
+  height: 92px;
+  line-height: 92px;
+}
+.header-t .header-logo a img {
+  display: inline-block;
+  margin-top: 16px;
+}
+.header-t .header-phone a {
+  display: inline-block;
+  height: 92px;
+  line-height: 112px;
+  padding-left: 58px;
+  background: url(../../images/icon-linkman.png) left center no-repeat;
+  font-size: 18px;
+  color: #535353;
+}
+.header-b {
+  width: 1200px;
+  height: 49px;
+  margin: 0 auto;
+}
+.header-b .nav {
+  width: 882px;
+  height: 49px;
+}
+.header-b .nav li {
+  float: left;
+}
+.header-b .nav li a {
+  display: inline-block;
+  width: 144px;
+  height: 49px;
+  line-height: 49px;
+  font-size: 18px;
+  color: #4998f4;
+  text-align: center;
+}
+.header-b .nav li a.pass,
+.header-b .nav li a:hover {
+  color: #fff !important;
+  background: #4998f4 !important;
+}
+.header-b .search {
+  width: 274px;
+  height: 36px;
+  border: #ff9900 solid 1px;
+  overflow: hidden;
+  margin-top: 6px;
+}
+.header-b .search span {
+  display: inline-block;
+  width: 82px;
+  height: 36px;
+  line-height: 36px;
+  background: #ff9900;
+  text-align: center;
+}
+.header-b .search select {
+  background: #ff9900;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+}
+.header-b .search select option {
+  background: #ffffff;
+  color: #535353;
+}
+.header-b .search .search-text {
+  width: 148px;
+  height: 36px;
+  border: none;
+}
+.header-b .search .search-btn {
+  width: 34px;
+  height: 34px;
+  border: none;
+  background: url(../../images/icon-search-btn.png) center center no-repeat;
+}
+/* banner_image */
+.banner {
+  position: relative;
+}
+.banner_visual {
+  position: relative;
+  overflow: hidden;
+  height: 700px;
+  border-top: 1px solid #d7d7d7;
+}
+.banner_image {
+  position: relative;
+  overflow: hidden;
+  height: 700px;
+}
+.banner_image ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 9999px;
+  height: 700px;
+}
+.banner_image li {
+  float: left;
+  width: 100%;
+  height: 700px;
+}
+.banner_image li span {
+  display: block;
+  width: 100%;
+  height: 700px;
+}
+.banner_image li a {
+  display: block;
+  width: 100%;
+  height: 700px;
+}
+#btn_prev,
+#btn_next {
+  position: absolute;
+  z-index: 11111;
+  top: 50%;
+  display: block;
+  width: 30px!important;
+  height: 75px!important;
+  margin-top: -37px;
+  border-radius: 4px;
+}
+#btn_prev {
+  left: 20px;
+  background: url(../../images/icon-banner-page.png) rgba(1, 27, 58, 0.6) no-repeat center center;
+}
+#btn_next {
+  right: 20px;
+  background: url(../../images/icon-banner-next.png) rgba(1, 27, 58, 0.6) no-repeat center center;
+}
+.banner-box {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1200px;
+  margin-left: -600px;
+  height: 0;
+}
+.banner-login {
+  position: absolute;
+  top: 180px;
+  right: 30px;
+  width: 336px;
+  height: 341px;
+  background: rgba(1, 27, 58, 0.6);
+  text-align: center;
+}
+.banner-login h2 {
+  line-height: 46px;
+  text-align: center;
+}
+.banner-login input {
+  display: block;
+  width: 175px;
+  height: 40px;
+  margin: 15px auto;
+  padding-left: 50px;
+  border: none;
+  font-size: 16px;
+}
+.banner-login .username {
+  background: url(../../images/icon-login-user.png) #ffffff 10px center no-repeat;
+}
+.banner-login .userpwd {
+  background: url(../../images/icon-login-pwd.png) #ffffff 10px center no-repeat;
+}
+.banner-login .login,
+.banner-login .register {
+  display: inline-block;
+  width: 101px;
+  height: 46px;
+  margin-top: 16px;
+  line-height: 46px;
+  background: url(../../images/icon-login-btn.png) center center no-repeat;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.banner-login .login {
+  margin-right: 26px;
+}
+.banner-login .help a {
+  display: inline-block;
+  width: 125px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 16px;
+  color: #ffffff;
+}
+.banner-login .help .guide {
+  padding-left: 14px;
+  background: url(../../images/icon-login-guide.png) 22px center no-repeat;
+}
+.banner-nav {
+  position: absolute;
+  top: 649px;
 }
