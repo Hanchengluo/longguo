@@ -1,5 +1,66 @@
 @charset "UTF-8";
 .banner-nav{
         position: absolute;
-        top: 649px;
-      }
+        top: 631px;
+        width: @w1200;
+        height: 70px;
+        background: @c_lan;
+        li{
+            position: relative;
+            float: left;
+            width: 399px;
+            height: 70px;
+            line-height: 70px;
+            text-align: center;
+            color: @c_bai;
+            font-size: @fz28;
+            span{
+                display: inline-block;
+                padding-left: 34px;
+                font-size: @fz18;
+            }
+            em{
+                color: @c_cheng;
+            }
+            &.nav-border{
+                border-right: @c_bai solid 1px;
+                border-left: @c_bai solid 1px;
+            }
+            .upglide-nav{
+                width: 399px;
+                height: 0;
+                margin: 0;
+                font-size: @fz18;
+                overflow: hidden;
+                position: absolute;
+                left: 0;
+                bottom: 70px;
+                background:rgba(73, 151, 243, 0.9);
+                -webkit-transition: height .5s ease;
+                -moz-transition: height .5s ease;
+                -o-transition: height .5s ease;
+                -ms-transition: height .5s ease;
+                transition: height .5s ease;
+                .line{
+                    border-bottom: @c_bai solid 1px;
+                }
+                p{
+                    text-align: center;
+                    a{
+                        display: inline-block;
+                        width: 106px;
+                        padding:0;
+                        color: @c_bai;
+                        font-size: @fz16;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            &:hover .upglide-nav{
+                height: 140px
+            }
+        }
+}
+
