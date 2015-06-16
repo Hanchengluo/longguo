@@ -78,20 +78,59 @@
     .border-top;
 }
 .column-thechart{
-    width: @w100;
+    width: 844px;
     height: 338px;
     margin-bottom: 38px;
     background:@c_bai;
     .box-shadow;
 
+    .tab-tit{
+        .tab{
+            display: inline-block;
+            height:56px;
+            a{
+                float: left;
+                display: inline-block;
+                width: 108px;
+                height: 56px;
+                line-height: 56px;
+                text-align: center;
+                font-size: @fz18;
+                color: @c_hei;
+                border-right: @c_hui solid 1px;
+            }
+            .pass,a:hover{
+                background:@c_lan;
+                color:@c_bai;
+            }
+        }
+    }
     .thechart-l{
         width: 540px;
         height: 222px;
-        padding: 30px 34px;
+        padding: 30px 26px;
     }
     .thechart-r{
-        width: 248px;
+        width: 208px;
         height: 278px;
+        margin-right: 38px;
+        li{
+            width: @w100;
+            height: 108px;
+            margin-top: 10px;
+            overflow: hidden;
+            h3{
+                height: 56px;
+                a{
+                    color: @c_hei;
+                }
+            }
+            p{
+                font-size: @fz12;
+                color: @c_hui;
+            }
+        }
+
     }
 }
 .orderflow{

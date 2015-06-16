@@ -645,7 +645,7 @@ h3 {
   border-top: #b5b5b5 solid 1px;
 }
 .column-thechart {
-  width: 100%;
+  width: 844px;
   height: 338px;
   margin-bottom: 38px;
   background: #ffffff;
@@ -656,14 +656,51 @@ h3 {
   -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
+.column-thechart .tab-tit .tab {
+  display: inline-block;
+  height: 56px;
+}
+.column-thechart .tab-tit .tab a {
+  float: left;
+  display: inline-block;
+  width: 108px;
+  height: 56px;
+  line-height: 56px;
+  text-align: center;
+  font-size: 18px;
+  color: #535353;
+  border-right: #b5b5b5 solid 1px;
+}
+.column-thechart .tab-tit .tab .pass,
+.column-thechart .tab-tit .tab a:hover {
+  background: #4998f4;
+  color: #ffffff;
+}
 .column-thechart .thechart-l {
   width: 540px;
   height: 222px;
-  padding: 30px 34px;
+  padding: 30px 26px;
 }
 .column-thechart .thechart-r {
-  width: 248px;
+  width: 208px;
   height: 278px;
+  margin-right: 38px;
+}
+.column-thechart .thechart-r li {
+  width: 100%;
+  height: 108px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.column-thechart .thechart-r li h3 {
+  height: 56px;
+}
+.column-thechart .thechart-r li h3 a {
+  color: #535353;
+}
+.column-thechart .thechart-r li p {
+  font-size: 12px;
+  color: #b5b5b5;
 }
 .orderflow {
   width: 100%;
