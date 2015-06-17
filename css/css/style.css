@@ -448,6 +448,7 @@ h3 {
   height: 309px;
   padding-top: 32px;
   background: rgba(1, 27, 58, 0.6);
+  background: url(../../images/icon-login-bg.png) 0 0 repeat\9;
   text-align: center;
 }
 .banner-login h2 {
@@ -536,6 +537,7 @@ h3 {
   left: 0;
   bottom: 70px;
   background: rgba(73, 151, 243, 0.9);
+  background: url(../../images/icon-banner-navbg.png) 0 0 repeat;
   -webkit-transition: height .5s ease;
   -moz-transition: height .5s ease;
   -o-transition: height .5s ease;
@@ -654,6 +656,9 @@ h3 {
   -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
+.column-thechart .tab-tit {
+  display: block !important;
+}
 .column-thechart .tab-tit .tab {
   display: inline-block;
   height: 56px;
@@ -700,6 +705,9 @@ h3 {
   font-size: 12px;
   color: #b5b5b5;
 }
+.column-thechart .hide {
+  display: none;
+}
 .orderflow {
   width: 100%;
   height: 96px;
@@ -729,7 +737,7 @@ h3 {
 }
 .bidhistory {
   width: 100%;
-  height: 377px;
+  height: 376px;
   margin-bottom: 38px;
   background: #ffffff;
   -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -750,9 +758,13 @@ h3 {
 }
 .bidhistory .bid-scroll {
   width: 290px;
-  height: auto;
+  height: 266px;
   margin: 0 auto;
   color: #b5b5b5;
+}
+.bidhistory .bid-scroll li {
+  width: 296px;
+  height: 46px;
 }
 .bidhistory .bid-scroll li:hover span {
   background: #ff9900;
@@ -794,4 +806,83 @@ h3 {
   padding: 0 20px 0 10px;
   color: #ff9900;
   font-size: 24px;
+}
+.footer {
+  width: 100%;
+  height: auto;
+  background: #3e4145;
+}
+.footer-box {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+.footer-l {
+  width: 370px;
+  height: 338px;
+  text-align: center;
+  font-size: 16px;
+  padding: 46px 0 0 0;
+}
+.footer-l img {
+  margin-bottom: 38px;
+}
+.footer-l p {
+  width: 308px;
+  margin: 0 auto;
+  color: #ffffff;
+  line-height: 24px;
+  text-align: left;
+}
+.footer-r {
+  width: 830px;
+  height: 338px;
+  padding: 46px 0 0 0;
+}
+.footer-r li {
+  width: 207px;
+  float: left;
+  height: 185px;
+  overflow: hidden;
+}
+.footer-r li h2 {
+  margin-bottom: 14px;
+  text-align: center;
+}
+.footer-r li a {
+  display: inline-block;
+  width: 207px;
+  height: 24px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+}
+.footer-r .footer-weixin,
+.footer-r .footer-app {
+  width: 375px;
+  height: 105px;
+  margin-left: 38px;
+  color: #ffffff;
+}
+.footer-r .footer-weixin img,
+.footer-r .footer-app img {
+  float: left;
+  margin-right: 24px;
+}
+.footer-copyrigth {
+  width: 100%;
+  height: 86px;
+  border-top: #535353 solid 1px;
+}
+.footer-copyrigth .cr-l {
+  width: 440px;
+  height: 86px;
+  margin-top: 20px;
+  text-align: left;
+  color: #ffffff;
+}
+.footer-copyrigth .cr-r {
+  height: 86px;
+  line-height: 86px;
+  color: #ffffff;
 }
