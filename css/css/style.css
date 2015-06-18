@@ -266,6 +266,18 @@ h3 {
   margin: 38px auto;
   -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  -moz-transition: box-shadow 0.3s;
+  -webkit-transition: box-shadow 0.3s;
+  -o-transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+}
+.map-input {
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
   -o-transition: box-shadow 0.3s;
@@ -607,6 +619,8 @@ h3 {
   background: #ffffff;
   -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
   -o-transition: box-shadow 0.3s;
@@ -677,6 +691,8 @@ h3 {
   background: #ffffff;
   -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
   -o-transition: box-shadow 0.3s;
@@ -742,6 +758,8 @@ h3 {
   background: #ffffff;
   -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
   -o-transition: box-shadow 0.3s;
@@ -768,6 +786,8 @@ h3 {
   background: #ffffff;
   -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
   -o-transition: box-shadow 0.3s;
@@ -812,6 +832,8 @@ h3 {
   background: #ffffff;
   -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
   -o-transition: box-shadow 0.3s;
@@ -1321,6 +1343,150 @@ h3 {
   height: 60px;
 }
 .group-box .flow-bnt a {
+  display: inline-block;
+  width: 168px;
+  height: 60px;
+  margin: 0 70px;
+  line-height: 60px;
+  background: #ff9900;
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+}
+.box-shadow {
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  -moz-transition: box-shadow 0.3s;
+  -webkit-transition: box-shadow 0.3s;
+  -o-transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+}
+.map-input-box {
+  width: 1200px;
+  margin: 0 auto;
+  background: #f0f0f0;
+}
+.map-input {
+  display: inline-block;
+  width: 144px;
+  height: 42px;
+  line-height: 42px;
+  border-top: #4998f4 4px solid;
+  color: #4998f4;
+  background: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+.groupinput {
+  width: 1066px;
+  margin: 3px auto;
+  padding: 20px 0 ;
+}
+.groupinput .tit1 {
+  margin-bottom: 20px;
+  line-height: 34px;
+  border-bottom: #b5b5b5 solid 1px;
+  font-size: 20px;
+  color: #4998f4;
+}
+#gorup-form tr td {
+  font-size: 20px;
+  color: #535353;
+  text-indent: 25px;
+}
+#gorup-form .CAPTCHA {
+  display: inline-block;
+  padding: 5px 22px;
+  background: #ff9900;
+  text-align: center;
+  text-indent: 0;
+  color: #ffffff;
+  float: right;
+  margin-right: 200px;
+}
+#gorup-form input {
+  height: 36px;
+  font-size: 20px;
+  text-indent: 5px;
+  border: #b5b5b5 solid 1px;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  -moz-transition: box-shadow 0.3s;
+  -webkit-transition: box-shadow 0.3s;
+  -o-transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+}
+#gorup-form select {
+  height: 36px;
+  line-height: 36px;
+  font-size: 20px;
+  color: #535353;
+  text-align: center;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  -moz-transition: box-shadow 0.3s;
+  -webkit-transition: box-shadow 0.3s;
+  -o-transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+}
+#gorup-form textarea {
+  height: 125px;
+}
+#gorup-form .input1 {
+  width: 325px;
+}
+#gorup-form .input2 {
+  width: 180px;
+}
+#gorup-form .input3 {
+  width: 544px;
+}
+#gorup-form input:hover,
+#gorup-form input:focus,
+#gorup-form select:hover,
+#gorup-form select:focus,
+#gorup-form textarea:hover,
+#gorup-form textarea:focus {
+  border: #4998f4 solid 1px;
+  -webkit-box-shadow: 0 0 -4px rgba(73, 151, 243, 0.7);
+  box-shadow: 0 0 -4px rgba(73, 151, 243, 0.7);
+  -moz-transition: box-shadow 0.3s;
+  -webkit-transition: box-shadow 0.3s;
+  -o-transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+}
+.groupinput-bnt {
+  width: 792px;
+  margin: 0 auto;
+  padding-bottom: 46px;
+}
+.groupinput-bnt a {
+  display: inline-block;
+  width: 170px;
+  height: 48px;
+  line-height: 48px;
+  margin: 0 28px;
+  border-bottom: #FF6B00 solid 3px;
+  background: #ff9900;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+.exchange-box {
+  padding: 0 0 38px 0;
+}
+.exchange-box .exchange-flow {
+  padding: 30px 70px;
+}
+.exchange-box .flow-bnt {
+  text-align: center;
+  height: 60px;
+}
+.exchange-box .flow-bnt a {
   display: inline-block;
   width: 168px;
   height: 60px;
