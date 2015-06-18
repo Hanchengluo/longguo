@@ -539,9 +539,6 @@ h3 {
   background: rgba(73, 151, 243, 0.9);
   background: url(../../images/icon-banner-navbg.png) 0 0 repeat;
   -webkit-transition: height .5s ease;
-  -moz-transition: height .5s ease;
-  -o-transition: height .5s ease;
-  -ms-transition: height .5s ease;
   transition: height .5s ease;
 }
 .banner-nav li .upglide-nav .line {
@@ -564,11 +561,8 @@ h3 {
   height: 140px;
 }
 .box-shadow {
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .border-top {
@@ -579,15 +573,11 @@ h3 {
   height: 334px;
   margin-bottom: 38px;
   background: #ffffff;
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .column-supply:hover {
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .column-supply li {
@@ -649,11 +639,8 @@ h3 {
   height: 338px;
   margin-bottom: 38px;
   background: #ffffff;
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .column-thechart .tab-tit {
@@ -714,11 +701,8 @@ h3 {
   margin-bottom: 38px;
   text-align: center;
   background: #ffffff;
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .orderflow a {
@@ -740,11 +724,8 @@ h3 {
   height: 376px;
   margin-bottom: 38px;
   background: #ffffff;
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .bidhistory h2 {
@@ -784,11 +765,8 @@ h3 {
   height: 162px;
   margin-bottom: 38px;
   background: #ffffff;
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .vol-collect h2 {
@@ -884,5 +862,187 @@ h3 {
 .footer-copyrigth .cr-r {
   height: 86px;
   line-height: 86px;
+  color: #ffffff;
+}
+.subnav {
+  position: relative;
+  display: block;
+  margin-top: 42px;
+  margin-right: 17px;
+  width: 176px;
+  height: 280px;
+  background: #ffffff;
+  box-shadow: 0 6px 8px #c2c2c2;
+}
+.subnav li a {
+  height: 56px;
+  display: block;
+  border-bottom: #b5b5b5 solid 1px;
+  font-size: 18px;
+  color: #6b6b6b;
+  line-height: 55px;
+  text-align: center;
+  background: #ffffff;
+}
+.subnav li a.clicked,
+.subnav li a:hover {
+  border-left: #4998f4 solid 5px !important;
+  border-right: #4998f4 solid 5px !important;
+  color: #4998f4 !important;
+}
+.article-list {
+  width: 1007px;
+  height: 795px;
+  position: relative;
+  top: -280px;
+  float: right;
+  margin-bottom: -240px;
+  clear: both;
+  display: block;
+  background: #ffffff;
+  box-shadow: 0 6px 8px #c2c2c2;
+  overflow: hidden;
+}
+.article-list .article-tit {
+  height: 49px;
+  width: auto;
+  padding: 27px 12px 0 12px;
+  display: block;
+  font-size: 24px;
+  color: #4998f4;
+  border-bottom: #b5b5b5 solid 1px;
+}
+.article-list .article-tit img {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.article-list .article-tit span {
+  font-size: 18px;
+  color: #6b6b6b;
+}
+.article-list .artlist {
+  margin: 0 12px 0 12px;
+}
+.article-list .artlist li a {
+  height: 64px;
+  width: 983px;
+  display: block;
+  overflow: hidden;
+}
+.article-list .artlist li a dl {
+  height: 24px;
+  margin-top: 19px;
+  display: block;
+}
+.article-list .artlist li a dl span {
+  width: 24px;
+  height: 24px;
+  display: block;
+  float: left;
+  background: url(../../images/list-point.png);
+  margin-left: 5px;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 24px;
+  text-align: center;
+}
+.article-list .artlist li a dl dt {
+  width: 337px;
+  display: block;
+  font-size: 18px;
+  color: #6b6b6b;
+  float: left;
+  margin-left: 10px;
+}
+.article-list .artlist li a dl dd {
+  display: block;
+  float: left;
+  font-size: 12px;
+  color: #b5b5b5;
+  margin-left: 55px;
+  margin-top: 6px;
+}
+.article-list .artlist li a dl .article-detail {
+  display: block;
+  width: 403px;
+  overflow: hidden;
+}
+.article-list .artlist li a:hover {
+  background: #ff9900;
+}
+.article-list .artlist li a:hover span {
+  background: url(../../images/list-point_hover.png);
+  color: #ff9900;
+}
+.article-list .artlist li a:hover dt {
+  color: #ffffff;
+}
+.article-list .artlist li a:hover dd {
+  color: #ffffff;
+}
+.article-list .page {
+  width: 610px;
+  height: 30px;
+  display: block;
+  position: relative;
+  margin: 36px auto;
+  font-size: 16px;
+  color: #6b6b6b;
+  text-align: center;
+}
+.article-list .page a {
+  width: 30px;
+  height: 30px;
+  display: block;
+  float: left;
+  margin-left: 15px;
+  color: #b5b5b5;
+  line-height: 30px;
+  text-align: center;
+  border: #b5b5b5 solid 1px;
+}
+.article-list .page .page-pass {
+  background: #ff9900;
+  border: #ff9900 solid 1px;
+  color: #ffffff;
+}
+.article-list .page .nopage {
+  border: none;
+  display: block;
+  margin-left: 23px;
+}
+.article-list .page .nopage:hover {
+  background: none;
+  border: none;
+  color: #b5b5b5;
+}
+.article-list .page span {
+  display: block;
+  float: left;
+  margin-left: 35px;
+  line-height: 30px;
+  text-align: center;
+}
+.article-list .page input {
+  width: 30px;
+  height: 30px;
+  display: block;
+  float: left;
+  border: #b5b5b5 solid 1px;
+}
+.article-list .page .go-click {
+  width: 30px;
+  height: 30px;
+  background: url(../../images/go-kick.png) repeat-x;
+  color: #ffffff;
+  border: none;
+}
+.article-list .page .go-click:hover {
+  border: none;
+  background: url(../../images/go-kick.png) repeat-x;
+}
+.article-list .page a:hover {
+  background: #ff9900;
+  border: #ff9900 solid 1px;
   color: #ffffff;
 }

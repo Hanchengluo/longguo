@@ -1,0 +1,158 @@
+.article-list{
+	width: 1007px;
+	height: 795px;
+	position: relative;
+	top: -280px;
+	float: right;
+	margin-bottom: -240px;
+	clear: both;
+	display: block;
+	background: @c_bai;
+	box-shadow: 0 6px 8px #c2c2c2;
+	overflow: hidden;
+	.article-tit{
+		height: 49px;
+		width: auto;
+		padding: 27px 12px 0 12px;
+		display: block;
+		font-size: @fz24;
+		color: @c_lan;
+		border-bottom: @c_hui solid 1px;
+		img{
+			margin-left: 25px;
+			margin-right: 25px;
+		}
+		span{
+			font-size: @fz18;
+			color: @c_tit;
+		}
+	}
+	.artlist{
+		margin: 0 12px 0 12px;
+		li{
+			a{
+				height: 64px;
+			    width: 983px;
+			    display: block;
+			    overflow: hidden;
+			    dl{
+					height: 24px;
+					margin-top: 19px;
+					display: block;
+					span{
+					width: 24px;
+					height: 24px;
+					display: block;
+					float: left;
+					background: url(../../images/list-point.png);
+					margin-left: 5px;
+					font-size: 18px;
+					color: @c_bai;
+					line-height: 24px;
+					text-align: center;
+			    	}
+					dt{
+						width:337px;
+						display: block;
+						font-size: 18px;
+						color: @c_tit;
+						float: left;
+						margin-left: 10px;
+					}
+					dd{
+						display: block;
+						float: left;
+						font-size: 12px;
+						color: @c_hui;
+						margin-left: 55px;
+						margin-top: 6px;
+					}
+					.article-detail{
+						display: block;
+						width: 403px;
+						overflow: hidden;
+					}
+				}
+			}
+			a:hover{
+				background: @c_cheng;
+				span{
+					background: url(../../images/list-point_hover.png);
+					color: @c_cheng;
+				}
+				dt{
+					color: @c_bai;
+				}
+				dd{
+					color: @c_bai;
+				}
+			}
+		}
+	}
+	.page{
+		width: 610px;
+		height: 30px;
+		display: block;
+		position: relative;
+		margin: 36px auto;
+		font-size: 16px;
+		color: @c_tit;
+		text-align: center;
+		a{
+			width: 30px;
+			height: 30px;
+			display: block;
+			float: left;
+			margin-left: 15px;
+			color: @c_hui;
+			line-height: 30px;
+			text-align: center;
+			border: @c_hui solid 1px;
+		}
+		.page-pass{
+			background: @c_cheng;
+			border: @c_cheng solid 1px;
+			color: @c_bai;
+		}
+		.nopage{
+			border: none;
+			display: block;
+			margin-left: 23px;
+			&:hover{
+				background: none;
+				border: none;
+				color: @c_hui;
+			}
+		}
+		span{
+			display: block;
+			float: left;
+			margin-left: 35px;
+			line-height: 30px;
+			text-align: center;
+		}
+		input{
+			width: 30px;
+			height: 30px;
+			display: block;
+			float: left;
+			border: @c_hui solid 1px;
+		}
+		.go-click{
+			width: 30px;
+			height: 30px;
+			background: url(../../images/go-kick.png) repeat-x;
+			color: @c_bai;
+			border: none;
+			&:hover{
+				border: none;
+				background: url(../../images/go-kick.png) repeat-x;
+			}
+		}
+		a:hover{
+			background: @c_cheng;
+			border: @c_cheng solid 1px;
+			color: @c_bai;
+		}
+	}
+}
