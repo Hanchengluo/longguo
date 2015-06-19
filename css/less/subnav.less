@@ -1,0 +1,27 @@
+.subnav{
+	position: relative;
+	display: block;
+	margin-top: 42px;
+	margin-right: 17px;
+	width: 176px;
+	height: 280px;
+	background: @c_bai;
+	box-shadow: 0 6px 8px #c2c2c2;
+	li{
+		a{
+		    height: 56px;
+		    display: block;
+		    border-bottom: @c_hui solid 1px;
+		    font-size: @fz18;
+		    color: @c_tit;
+		    line-height: 55px;
+		    text-align: center;
+		    background: @c_bai;
+		}
+		a.clicked,a:hover{
+			border-left: @c_lan solid 5px !important;
+			border-right: @c_lan solid 5px !important;
+			color: @c_lan !important;
+		}
+	}
+}

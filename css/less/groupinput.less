@@ -1,0 +1,108 @@
+.box-shadow{
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    -moz-transition: box-shadow 0.3s;
+    -webkit-transition: box-shadow 0.3s;
+    -o-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+}
+.map-input-box{
+    width: @w1200;
+    margin: 0 auto;
+    background: @c_bg;
+}
+.map-input{
+    display: inline-block;
+    width: 144px;
+    height: 42px;
+    line-height: 42px;
+    border-top:@c_lan 4px solid;
+    color: @c_lan;
+    background: @c_bai;
+    font-size: @fz20;
+    text-align: center;
+}
+.groupinput{
+    width: 1066px;
+    margin: 3px auto;
+    padding: 20px 0 ;
+    .tit1{
+        margin-bottom: 20px;
+        line-height: 34px;
+        border-bottom: @c_hui solid 1px;
+        font-size: @fz20;
+        color: @c_lan;
+    }
+}
+#gorup-form{
+    tr{
+        td{
+            font-size:@fz20;
+            color: @c_hei;
+            text-indent: 25px;
+        }
+    }
+    .CAPTCHA{
+        display: inline-block;
+        padding:5px 22px;
+        background: @c_cheng;
+        text-align: center;
+        text-indent: 0;
+        color: @c_bai;
+        float: right;
+        margin-right: 200px;
+    }
+    input{
+        height: 36px;
+        font-size: @fz20;
+        text-indent: 5px;
+        border: @c_hui solid 1px;
+        .box-shadow;
+    }
+    select{
+        height: 36px;
+        line-height: 36px;
+        font-size: @fz20;
+        color: @c_hei;
+        text-align: center;
+        .box-shadow;
+    }
+    textarea{
+        height:125px;
+    }
+    .input1{
+        width: 325px;
+    }
+    .input2{
+        width: 180px;
+    }
+    .input3{
+        width: 544px;
+    }
+    input:hover,input:focus,select:hover,select:focus,textarea:hover,textarea:focus{
+            border:@c_lan solid 1px;
+            -webkit-box-shadow: 0 0 -4px rgba(73, 151, 243, 0.7);
+            box-shadow: 0 0 -4px rgba(73, 151, 243, 0.7);
+            -moz-transition: box-shadow 0.3s;
+            -webkit-transition: box-shadow 0.3s;
+            -o-transition: box-shadow 0.3s;
+            transition: box-shadow 0.3s;
+    }
+}
+.groupinput-bnt{
+    width:792px;
+    margin: 0 auto;
+    padding-bottom: 46px;
+    a{
+        display: inline-block;
+        width: 170px;
+        height: 48px;
+        line-height: 48px;
+        margin: 0 28px;
+        border-bottom:#FF6B00 solid 3px;
+        background: @c_cheng;
+        color: @c_bai;
+        font-size: @fz20;
+        text-align: center;
+    }
+}

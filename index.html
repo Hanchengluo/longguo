@@ -5,6 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>首页·龙国贸易</title>
     <link rel="stylesheet" href="css/css/style.css">
+    <!--[if lte IE 6]>
+    <script src="js/DD_belatedPNG_0.0.8a-min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    DD_belatedPNG.fix('div, ul, img, li, input , a, .png_bg');
+    /* 将 .png_bg 改成你应用了透明PNG的CSS选择器*/
+    </script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 </head>
 <body>
 <div class="container">
@@ -166,15 +176,49 @@
             <div class="column-thechart">
                 <div class="tab-tit">
                     <h2 class="tit1 u-flo-l"><img src="images/icon-thechart.png" height="30" width="30" alt="">行业走势资讯</h2>
-                    <div class="tab u-flo-r">
-                        <a  class="pass" href="" title="华东地区">华东地区</a>
-                        <a href="" title="华南地区">华南地区</a>
-                        <a href="" title="进口">进口</a>
+                    <div class="tab u-flo-r" id="tab">
+                        <a class="pass" href="javascript:void(0)" title="华东地区">华东地区</a>
+                        <a href="javascript:void(0)" title="华南地区">华南地区</a>
+                        <a href="javascript:void(0)" title="进口">进口</a>
                     </div>
                 </div>
                 <div class="thechart clearfix">
                     <div class="thechart-l u-flo-l">
                         <div id="chart01" style="width:530px;height:214px"></div>
+                    </div>
+                    <div class="thechart-r u-flo-r">
+                        <ul>
+                            <li>
+                                <h3><a href="" title="">渤海DPC价格近月上涨</a></h3>
+                                <p>由于中东地区战事吃紧，导致石油原油料价格大幅度上涨，据观察在未来的半年内聚乙烯的价格将明显上涨。</p>
+                            </li>
+                            <li>
+                                <h3><a href="" title="">欧佩克转向市场份额警惕美元飙升</a></h3>
+                                <p>由于中东地区战事吃紧，导致石油原油料价格大幅度上涨，据观察在未来的半年内聚乙烯的价格将明显上涨。</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="thechart hide clearfix">
+                    <div class="thechart-l u-flo-l">
+                        <div id="chart02" style="width:530px;height:214px"></div>
+                    </div>
+                    <div class="thechart-r u-flo-r">
+                        <ul>
+                            <li>
+                                <h3><a href="" title="">渤海DPC价格近月上涨</a></h3>
+                                <p>由于中东地区战事吃紧，导致石油原油料价格大幅度上涨，据观察在未来的半年内聚乙烯的价格将明显上涨。</p>
+                            </li>
+                            <li>
+                                <h3><a href="" title="">欧佩克转向市场份额警惕美元飙升</a></h3>
+                                <p>由于中东地区战事吃紧，导致石油原油料价格大幅度上涨，据观察在未来的半年内聚乙烯的价格将明显上涨。</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="thechart hide clearfix">
+                    <div class="thechart-l u-flo-l">
+                        <div id="chart03" style="width:530px;height:214px"></div>
                     </div>
                     <div class="thechart-r u-flo-r">
                         <ul>
@@ -197,7 +241,7 @@
                     <a href="" title="委托买卖"><img src="images/icon-orderflow.png" height="30" width="30" alt="">委托买卖<em></em></a>
                 </h2>
             </div>
-            <div class="bidhistory">
+            <div class="bidhistory" >
                 <h2 class="tit1">成交记录</h2>
                 <div class="bid-tit">
                     <span>产品</span>
@@ -205,7 +249,7 @@
                     <span>交货地</span>
                     <span>时间</span>
                 </div>
-                <div class="bid-scroll">
+                <div class="bid-scroll" id="bid-scroll">
                     <ul>
                         <li>
                             <span>苯酐</span>
@@ -253,196 +297,74 @@
             </div>
         </div>
     </div>
-    <div class="footer clearfix">
-        <div class="fooder-l u-flo-l">
-            <img src="images/icon-food-logo.jpg" height="117" width="134" alt="">
-            <p>广东龙国贸易股份有限公司是一家化工原料采购贸易公司，依据市场的数据分析判断未来的化工原料价格的走势……</p>
-        </div>
-        <div class="footer-r u-flo-r">
-            <ul>
-                <li>
-                    <h2 class="tit3">新手上路</h2>
-                    <a href="">新手指南</a>
-                    <a href="">个人中心</a>
-                    <a href="">委托买吗</a>
-                </li>
-                <li>
-                    <h2 class="tit3">关于买卖</h2>
-                    <a href="">如何卖</a>
-                    <a href="">如何买</a>
-                    <a href="">如何付款</a>
-                </li>
-                <li>
-                    <h2 class="tit3">行业动态</h2>
-                    <a href="">华北地区</a>
-                    <a href="">华南地区</a>
-                    <a href="">进口市场</a>
-                </li>
-                <li>
-                    <h2 class="tit3">关于我们</h2>
-                    <a href="">最新动态</a>
-                    <a href="">公司介绍</a>
-                    <a href="">团队介绍</a>
-                    <a href="">核心价值</a>
-                </li>
-            </ul>
-            <div class="footer-weixin u-flo-l">
-                <img src="word/wx-QR-code.jpg" height="92" width="92" alt="微信二维码">
-                <div class="weixin-text">
-                    <h2 class="tit3">微信公众号</h2>
-                    <p>微信公众号是开发者或商家在微信公众平台上申请的应用账号,该帐号与QQ账号互通,通过公众号,商家可在微信平台上实现和特定群体的文字……</p>
-                </div>
+    <div class="footer">
+        <div class="footer-box clearfix">
+            <div class="footer-l u-flo-l">
+                <img src="images/icon-food-logo.jpg" height="117" width="134" alt="">
+                <p>广东龙国贸易股份有限公司是一家化工原料采购贸易公司，依据市场的数据分析判断未来的化工原料价格的走势……</p>
             </div>
-            <div class="footer-app u-flo-l">
-                <img src="word/app-QR-code.jpg" height="92" width="92" alt="app下载">
-                <div class="weixin-text">
-                    <h2 class="tit3">APP下载</h2>
-                    <p>随着智能手机和iPad等移动终端设备的普及，人们逐渐习惯了使用应用客户端上网的方式，而目前国内各大电商，均拥有了自己的应用客户……</p>
+            <div class="footer-r u-flo-r">
+                <ul>
+                    <li>
+                        <h2 class="tit3">新手上路</h2>
+                        <a href="">新手指南</a>
+                        <a href="">个人中心</a>
+                        <a href="">委托买吗</a>
+                    </li>
+                    <li>
+                        <h2 class="tit3">关于买卖</h2>
+                        <a href="">如何卖</a>
+                        <a href="">如何买</a>
+                        <a href="">如何付款</a>
+                    </li>
+                    <li>
+                        <h2 class="tit3">行业动态</h2>
+                        <a href="">华北地区</a>
+                        <a href="">华南地区</a>
+                        <a href="">进口市场</a>
+                    </li>
+                    <li>
+                        <h2 class="tit3">关于我们</h2>
+                        <a href="">最新动态</a>
+                        <a href="">公司介绍</a>
+                        <a href="">团队介绍</a>
+                        <a href="">核心价值</a>
+                    </li>
+                </ul>
+                <div class="footer-weixin u-flo-l">
+                    <img src="word/wx-QR-code.jpg" height="92" width="92" alt="微信二维码">
+                    <div class="weixin-text">
+                        <h2 class="tit3">微信公众号</h2>
+                        <p>微信公众号是开发者或商家在微信公众平台上申请的应用账号,该帐号与QQ账号互通,通过公众号,商家可在微信平台上实现和特定群体的文字……</p>
+                    </div>
+                </div>
+                <div class="footer-app u-flo-l">
+                    <img src="word/app-QR-code.jpg" height="92" width="92" alt="app下载">
+                    <div class="weixin-text">
+                        <h2 class="tit3">APP下载</h2>
+                        <p>随着智能手机和iPad等移动终端设备的普及，人们逐渐习惯了使用应用客户端上网的方式，而目前国内各大电商，均拥有了自己的应用客户……</p>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="footer-copyrigth clearfix">
-            <p class="cr-l u-flo-l">
-                版权所有 © 广东龙国股份有限公司 未经许可不得复制、转载或摘编，违者必究!
-                <br>
-                Copyright © LONG GUO COMPANY OF CHINA ，LTD. All Rights Reserved
-            </p>
-            <p class="cr-r u-flo-r">备案ICP许可证号 粤ICP备00000000号</p>
+            <div class="footer-box">
+                <p class="cr-l u-flo-l">
+                    版权所有 © 广东龙国股份有限公司 未经许可不得复制、转载或摘编，违者必究!
+                    <br>
+                    Copyright © LONG GUO COMPANY OF CHINA ，LTD. All Rights Reserved
+                </p>
+                <p class="cr-r u-flo-r">备案ICP许可证号 粤ICP备00000000号</p>
+            </div>
         </div>
     </div>
 </div>
 </body>
 <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
 <script src="js/marquee.js" type="text/javascript"></script>
-<script src="js/upglidenav.js" type="text/javascript"></script>
 <script src="js/echarts-all.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        // 基于准备好的dom，初始化echarts图表
-        var myChart = echarts.init(document.getElementById('chart01'));
-
-        var option = {
-            title: {
-               text: "六月苯酐价格变化指数",
-               subtext: "",
-               textStyle: {
-                   fontSize: 14,
-                   fontStyle: "normal"
-               }
-           },
-           tooltip: {
-               trigger: "axis"
-           },
-           legend: {
-               data: ["最高价格", "最低价格"],
-               selectedMode: false,
-               x: "right",
-               y: "top"
-           },
-           toolbox: {
-               feature: {
-                   dataView: {
-                       readOnly: true
-                   },
-                   magicType: {
-                       type: ["line", "bar"],
-                       show: false
-                   }
-               }
-           },
-           xAxis: [
-               {
-                   type: "category",
-                   boundaryGap: false,
-                   name:"(时间)",
-                   data: ["6-01", "6-05", "6-10", "6-15", "6-20", "-"],
-                   name: "",
-                   nameLocation: "end",
-                   nameTextStyle:{
-                        color: "rgb(102, 103, 104)",
-                        align: "right"
-                   }
-               }
-           ],
-           yAxis: [
-               {
-                   type: "value",
-                   name: "（元/吨）",
-                   position: "top",
-                   nameLocation: "end",
-                   nameTextStyle: {
-                       color: "rgb(102, 103, 104)",
-                       align: "right"
-                   }
-               }
-           ],
-           series: [
-               {
-                   name: "最高价格",
-                   type: "line",
-                   data: [7838, 6000, 8050, 7228, 7683, "-"]
-               },
-               {
-                   name: "最低价格",
-                   type: "line",
-                   data: [5929, 4089, 7228, 5928, 6030, "-"]
-               }
-           ]
-        };
-
-        // 为echarts对象加载数据
-        myChart.setOption(option);
-    </script>
+<script src="js/echarts.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/jquery.event.drag-1.5.min.js"></script>
 <script type="text/javascript" src="js/jquery.touchSlider.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-    $dragBln = false;
-
-    $(".banner_image").touchSlider({
-        flexible : true,
-        speed : 200,
-        btn_prev : $("#btn_prev"),
-        btn_next : $("#btn_next"),
-        paging : $(".flicking_con a"),
-        // counter : function (e){
-        //  $(".flicking_con a").removeClass("on").eq(e.current-1).addClass("on");
-        // }
-    });
-
-    $(".banner_image").bind("mousedown", function() {
-        $dragBln = false;
-    });
-
-    $(".banner_image").bind("dragstart", function() {
-        $dragBln = true;
-    });
-
-    $(".banner_image a").click(function(){
-        if($dragBln) {
-            return false;
-        }
-    });
-
-    timer = setInterval(function(){
-        $("#btn_next").click();
-    }, 5000);
-
-    $(".banner_visual").hover(function(){
-        clearInterval(timer);
-    },function(){
-        timer = setInterval(function(){
-            $("#btn_next").click();
-        },5000);
-    });
-
-    $(".banner_image").bind("touchstart",function(){
-        clearInterval(timer);
-    }).bind("touchend", function(){
-        timer = setInterval(function(){
-            $("#btn_next").click();
-        }, 5000);
-    });
-
-});
-</script>
+<script type="text/javascript" src="js/mian.js"></script>
 </html>

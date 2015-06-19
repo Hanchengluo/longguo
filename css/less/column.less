@@ -85,6 +85,7 @@
     .box-shadow;
 
     .tab-tit{
+        display:block !important;
         .tab{
             display: inline-block;
             height:56px;
@@ -132,6 +133,9 @@
         }
 
     }
+    .hide{
+        display: none;
+    }
 }
 .orderflow{
     width:@w100;
@@ -157,7 +161,7 @@
 }
 .bidhistory{
     width: @w100;
-    height: 377px;
+    height: 376px;
     margin-bottom: 38px;
     background: @c_bai;
     .box-shadow;
@@ -172,10 +176,12 @@
     }
     .bid-scroll{
         width: 290px;
-        height: auto;
+        height: 266px;
         margin: 0 auto;
         color:@c_hui;
         li{
+            width: 296px;
+            height: 46px;
             &:hover span{
                 background: @c_cheng;
                 color: @c_bai;
