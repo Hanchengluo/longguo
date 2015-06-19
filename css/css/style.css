@@ -233,8 +233,11 @@ h3 {
   text-overflow: ellipsis;
 }
 .box-shadow {
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
+  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .container {
@@ -261,15 +264,23 @@ h3 {
   height: auto;
   background: #ffffff;
   margin: 38px auto;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
+  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .map-input {
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
+  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .top-nav {
@@ -566,6 +577,9 @@ h3 {
   background: rgba(73, 151, 243, 0.9);
   background: url(../../images/icon-banner-navbg.png) 0 0 repeat;
   -webkit-transition: height .5s ease;
+  -moz-transition: height .5s ease;
+  -o-transition: height .5s ease;
+  -ms-transition: height .5s ease;
   transition: height .5s ease;
 }
 .banner-nav li .upglide-nav .line {
@@ -588,8 +602,11 @@ h3 {
   height: 140px;
 }
 .box-shadow {
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
+  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .border-top {
@@ -600,12 +617,17 @@ h3 {
   height: 334px;
   margin-bottom: 38px;
   background: #ffffff;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
+  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .column-supply:hover {
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .column-supply li {
@@ -667,9 +689,13 @@ h3 {
   height: 338px;
   margin-bottom: 38px;
   background: #ffffff;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
+  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .column-thechart .tab-tit {
@@ -730,9 +756,13 @@ h3 {
   margin-bottom: 38px;
   text-align: center;
   background: #ffffff;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
+  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .orderflow a {
@@ -754,9 +784,13 @@ h3 {
   height: 376px;
   margin-bottom: 38px;
   background: #ffffff;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
+  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .bidhistory h2 {
@@ -796,9 +830,13 @@ h3 {
   height: 162px;
   margin-bottom: 38px;
   background: #ffffff;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
+  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .vol-collect h2 {
@@ -1316,8 +1354,11 @@ h3 {
   color: #ffffff;
 }
 .box-shadow {
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
+  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .map-input-box {
@@ -1368,9 +1409,13 @@ h3 {
   font-size: 20px;
   text-indent: 5px;
   border: #b5b5b5 solid 1px;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
+  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .gorup-form select {
@@ -1379,9 +1424,13 @@ h3 {
   font-size: 20px;
   color: #535353;
   text-align: center;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
+  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .gorup-form textarea {
@@ -1403,8 +1452,11 @@ h3 {
 .gorup-form textarea:hover,
 .gorup-form textarea:focus {
   border: #4998f4 solid 1px;
+  -webkit-box-shadow: 0 0 -4px rgba(73, 151, 243, 0.7);
   box-shadow: 0 0 -4px rgba(73, 151, 243, 0.7);
+  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
+  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .groupinput-bnt {
@@ -1734,4 +1786,156 @@ h3 {
 .more-list li a:hover {
   color: #ff9900;
   text-decoration: underline;
+}
+.register-main {
+  margin: auto;
+  width: 1200px;
+}
+.register-title {
+  margin: 30px 0 5px;
+  width: 144px;
+  height: 44px;
+  font-size: 24px;
+  text-align: center;
+  color: #4998f4;
+  background: #ffffff;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.blue1 {
+  margin: 0px 0  5px;
+  width: 144px;
+  height: 5px;
+  background: #4998f4;
+}
+.register-meg {
+  margin: 0px auto;
+  padding-top: 50px;
+  width: 1200px;
+  height: 600px;
+  font-size: 20px;
+  line-height: 54px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.mask {
+  width: 550px;
+  height: 214px;
+  margin: auto;
+}
+.label {
+  float: left;
+  text-align: right;
+}
+.fl-r {
+  float: right;
+}
+.code {
+  margin: 13px 0;
+  width: 150px;
+  height: auto;
+  float: right;
+}
+.register {
+  width: 150px;
+  height: 40px;
+  color: #ffffff;
+  background: #ff9900;
+}
+.main {
+  background: #f0f0f0;
+}
+.useme-title {
+  margin: 10px 0 0;
+  width: 144px;
+  height: 35px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  color: #4998f4;
+  background: #ffffff;
+}
+.siderbar {
+  margin: 10px 0;
+  width: 144px;
+  height: auto;
+  float: left;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.column {
+  margin: 0px 0;
+  width: 144px;
+  height: auto;
+}
+.column ul li {
+  width: 144px;
+  height: 44px;
+  font-size: 20px;
+  color: #4998f4;
+  border-top: 1px solid #dddddd;
+  text-align: center;
+  line-height: 40px;
+  background: #ffffff;
+}
+.line1 {
+  float: left;
+  display: inline-block;
+  width: 5px;
+  height: 44px;
+  background: #4998f4;
+}
+.line2 {
+  float: right;
+  display: inline-block;
+  width: 5px;
+  height: 44px;
+  background: #4998f4;
+}
+.rightbar {
+  margin: 58px 0px;
+  width: 1038px;
+  height: 585px;
+  float: right;
+  font-size: 18px;
+  color: #6b6b6b;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.useme-info {
+  margin: 50px auto;
+  width: 915px;
+  height: 200px;
+}
+.photo {
+  margin: 5px 25px;
+  float: left;
+  width: 130px;
+  height: 130px;
+}
+.useme-meg {
+  line-height: 35px;
+}
+.remind {
+  margin: 30px 0;
+  border-top: 1px solid #dddddd;
+}
+.order {
+  margin: auto;
+  width: 915px;
+}
+.order ul li {
+  float: left;
+  width: 113px;
+  text-align: center;
+  line-height: 50px;
+  border-top: 1px solid #dddddd;
+}
+.fillin {
+  font-size: 16px;
+  border-top: 1px solid #dddddd;
+}
+.fl-r {
+  float: right;
 }
