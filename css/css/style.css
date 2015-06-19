@@ -1389,12 +1389,12 @@ h3 {
   font-size: 20px;
   color: #4998f4;
 }
-#gorup-form tr td {
+.gorup-form tr td {
   font-size: 20px;
   color: #535353;
   text-indent: 25px;
 }
-#gorup-form .CAPTCHA {
+.gorup-form .CAPTCHA {
   display: inline-block;
   padding: 5px 22px;
   background: #ff9900;
@@ -1404,7 +1404,7 @@ h3 {
   float: right;
   margin-right: 200px;
 }
-#gorup-form input {
+.gorup-form input {
   height: 36px;
   font-size: 20px;
   text-indent: 5px;
@@ -1418,7 +1418,7 @@ h3 {
   -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
-#gorup-form select {
+.gorup-form select {
   height: 36px;
   line-height: 36px;
   font-size: 20px;
@@ -1433,24 +1433,24 @@ h3 {
   -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
-#gorup-form textarea {
+.gorup-form textarea {
   height: 125px;
 }
-#gorup-form .input1 {
+.gorup-form .input1 {
   width: 325px;
 }
-#gorup-form .input2 {
+.gorup-form .input2 {
   width: 180px;
 }
-#gorup-form .input3 {
+.gorup-form .input3 {
   width: 544px;
 }
-#gorup-form input:hover,
-#gorup-form input:focus,
-#gorup-form select:hover,
-#gorup-form select:focus,
-#gorup-form textarea:hover,
-#gorup-form textarea:focus {
+.gorup-form input:hover,
+.gorup-form input:focus,
+.gorup-form select:hover,
+.gorup-form select:focus,
+.gorup-form textarea:hover,
+.gorup-form textarea:focus {
   border: #4998f4 solid 1px;
   -webkit-box-shadow: 0 0 -4px rgba(73, 151, 243, 0.7);
   box-shadow: 0 0 -4px rgba(73, 151, 243, 0.7);
