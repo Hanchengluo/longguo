@@ -1497,6 +1497,28 @@ h3 {
   font-size: 20px;
   color: #ffffff;
 }
+.shopcar .tit2 {
+  height: 60px;
+  line-height: 60px;
+  padding-left: 60px;
+  border-bottom: 1px solid #b5b5b5;
+}
+.shopcar .shop-bnt {
+  text-align: center;
+  height: 60px;
+  padding-bottom: 20px;
+}
+.shopcar .shop-bnt a {
+  display: inline-block;
+  width: 168px;
+  height: 60px;
+  margin: 0 70px;
+  line-height: 60px;
+  background: #ff9900;
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+}
 .page-box {
   width: 637px;
   height: 60px;
