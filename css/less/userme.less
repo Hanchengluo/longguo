@@ -1,70 +1,70 @@
 @charset "UTF-8";
-.main{
-	background: @c_bg;
+.box-shadow{
+    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    -moz-transition: box-shadow 0.3s;
+    -webkit-transition: box-shadow 0.3s;
+    -o-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
 }
+
 .useme-title{
 	margin:10px 0 0;
 	width:144px;
-	height:35px;
+	height:45px;
 	font-size: @fz20;
 	text-align:center;
-	line-height: 30px;
+	line-height: 45px;
 	color: @c_lan;
 	background: @c_bai;
+	.box-shadow;
 }
 .siderbar{
-	margin:10px 0;
+	margin:10px 0 38px 0;
 	width:144px;
 	height:auto;
 	float:left;
-	-webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .column{
 	margin:0px 0;
 	width:144px;
 	height:auto;
-}
-.column ul{
-}
-.column ul li {
-	width:144px;
-	height:44px;
-	font-size:@fz20;
-	color:@c_lan;
-	border-top: 1px solid rgb(221,221,221);
-	text-align:center;
-	line-height: 40px;
-	background:@c_bai;
-}
-.line1{
-	float:left;
-	display:inline-block;
-	width:5px;
-	height:44px;
-	background:@c_lan;
-}
-.line2{
-	float:right;
-	display:inline-block;
-	width:5px;
-	height:44px;
-	background:@c_lan;
+	ul{
+		margin-top: 14px;
+		.box-shadow;
+	}
+	li {
+		width:144px;
+		height:44px;
+		font-size:@fz20;
+		color:@c_lan;
+		border-top: 1px solid rgb(221,221,221);
+		text-align:center;
+		line-height: 40px;
+		background:@c_bai;
+	}
+	.pass{
+		width:134px;
+		border-right: 5px solid @c_lan;
+		border-left: 5px solid @c_lan;
+		color: @c_tit;
+	}
 }
 .rightbar{
-	margin:58px 0px;
+	margin:80px 0 0 0;
+	padding: 15px 0 30px 0;
 	width:1038px;
-	height:585px;
+	height:auto;
 	float:right;
 	font-size: 18px;
 	color:#6b6b6b;
-	-webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	background: @c_bai;
+	.box-shadow;
 }
 .useme-info{
-	margin:50px auto;
-	width:915px;
-	height:200px;
+	margin: 20px auto;
+	width: 915px;
+	height: 162px;
 }
 .photo{
 	margin:5px 25px;
@@ -76,8 +76,21 @@
 	line-height:35px;
 }
 .remind{
-	margin:30px 0;
+	margin:0 auto 20px auto;
 	border-top: 1px solid #dddddd;
+	width: 915px;
+	padding: 12px 0;
+	p{
+		height: 34px;
+		span{
+			display: inline-block;
+			width: 150px;
+			padding-left: 20px;
+			a{
+				color: @c_cheng;
+			}
+		}
+	}
 }
 .order{
 	margin:auto;
@@ -92,8 +105,14 @@
 }
 .fillin{
 	font-size:16px;
-	border-top: 1px solid #dddddd;
+	a{
+		color: @c_cheng;
+	}
 }
 .fl-r{
 	float:right;
+}
+.useme-megleft{
+	float:left;
+	width:340px;
 }
