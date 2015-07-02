@@ -1,0 +1,26 @@
+.u-pos-r {
+  position: relative;
+}
+.u-pos-a {
+  position: absolute;
+}
+.u-pos-f {
+  position: fixed;
+}
+.u-pos-s {
+  position: static;
+}
+.u-flo-l {
+  float: left;
+}
+.u-flo-r {
+  float: right;
+}
+.u-mar-c {
+  margin: 0 auto;
+}
+.text-ov {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
