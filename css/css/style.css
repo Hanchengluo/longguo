@@ -233,11 +233,8 @@ h3 {
   text-overflow: ellipsis;
 }
 .box-shadow {
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .container {
@@ -264,23 +261,15 @@ h3 {
   height: auto;
   background: #ffffff;
   margin: 38px auto;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .map-input {
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .top-nav {
@@ -577,9 +566,6 @@ h3 {
   background: rgba(73, 151, 243, 0.9);
   background: url(../../images/icon-banner-navbg.png) 0 0 repeat;
   -webkit-transition: height .5s ease;
-  -moz-transition: height .5s ease;
-  -o-transition: height .5s ease;
-  -ms-transition: height .5s ease;
   transition: height .5s ease;
 }
 .banner-nav li .upglide-nav .line {
@@ -602,11 +588,8 @@ h3 {
   height: 140px;
 }
 .box-shadow {
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .border-top {
@@ -617,17 +600,12 @@ h3 {
   height: 334px;
   margin-bottom: 38px;
   background: #ffffff;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .column-supply:hover {
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .column-supply li {
@@ -689,13 +667,9 @@ h3 {
   height: 338px;
   margin-bottom: 38px;
   background: #ffffff;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .column-thechart .tab-tit {
@@ -756,13 +730,9 @@ h3 {
   margin-bottom: 38px;
   text-align: center;
   background: #ffffff;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .orderflow a {
@@ -784,13 +754,9 @@ h3 {
   height: 376px;
   margin-bottom: 38px;
   background: #ffffff;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .bidhistory h2 {
@@ -830,13 +796,9 @@ h3 {
   height: 162px;
   margin-bottom: 38px;
   background: #ffffff;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .vol-collect h2 {
@@ -1364,11 +1326,8 @@ h3 {
   color: #ffffff;
 }
 .box-shadow {
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .map-input-box {
@@ -1419,13 +1378,9 @@ h3 {
   font-size: 20px;
   text-indent: 5px;
   border: #b5b5b5 solid 1px;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .gorup-form select {
@@ -1434,13 +1389,9 @@ h3 {
   font-size: 20px;
   color: #535353;
   text-align: center;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .gorup-form textarea {
@@ -1462,11 +1413,8 @@ h3 {
 .gorup-form textarea:hover,
 .gorup-form textarea:focus {
   border: #4998f4 solid 1px;
-  -webkit-box-shadow: 0 0 -4px rgba(73, 151, 243, 0.7);
   box-shadow: 0 0 -4px rgba(73, 151, 243, 0.7);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .groupinput-bnt {
@@ -1831,7 +1779,6 @@ h3 {
   text-align: center;
   color: #4998f4;
   background: #ffffff;
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .blue1 {
@@ -1848,7 +1795,6 @@ h3 {
   font-size: 20px;
   line-height: 54px;
   background: #ffffff;
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .mask {
@@ -1876,11 +1822,8 @@ h3 {
   background: #ff9900;
 }
 .box-shadow {
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .useme-title {
@@ -1892,13 +1835,9 @@ h3 {
   line-height: 45px;
   color: #4998f4;
   background: #ffffff;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .Salutatory {
@@ -1926,13 +1865,9 @@ h3 {
 }
 .column ul {
   margin-top: 14px;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .column li {
@@ -1969,13 +1904,9 @@ h3 {
   font-size: 18px;
   color: #6b6b6b;
   background: #ffffff;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-transition: box-shadow 0.3s;
   -webkit-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
 }
 .useme-info {
@@ -2008,6 +1939,47 @@ h3 {
 }
 .remind p span a {
   color: #ff9900;
+}
+.order-select {
+  width: 915px;
+  height: 100%;
+  margin-left: 60px;
+  display: block;
+  border-top: 1px solid #b5b5b5;
+}
+.order-select li {
+  width: 180px;
+  height: 50px;
+  display: block;
+  float: left;
+  margin-right: 45px;
+}
+.order-select li span {
+  font-size: 18px;
+  line-height: 40px;
+  text-align: left;
+}
+.order-select li select {
+  width: 120px;
+  height: 30px;
+  margin-top: -65px;
+  margin-left: 90px;
+}
+.order-select li input {
+  height: 30px;
+  width: 105px;
+  margin-right: 10px;
+  border: 1px solid #ff9900;
+}
+.order-select li a {
+  display: inline-block;
+  width: 55px;
+  height: 30px;
+  margin-top: 8px;
+  background: #ff9900;
+  border-bottom: #FF4B00 2px  solid;
+  text-align: center;
+  color: #ffffff;
 }
 .order {
   margin: auto;
