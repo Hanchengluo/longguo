@@ -112,7 +112,7 @@
     }
 
     .sl-f2{
-        width: @w_100;
+        width: @w100;
         li{
             float: left;
             height: 38px;
@@ -129,11 +129,19 @@
                 }
             }
         }
-        .f1,.f2,.f3{
+        .f1,.f2,.f3, .f-open{
             width:100px;
             border-right: transparent;
             &:hover{
                 background: @c_lan;
+            }
+        }
+        .f-open{
+            width:100px;
+            border-right: transparent;
+            background: @c_lan !important;
+            a{
+                color: #fff !important;
             }
         }
         .f4{
@@ -176,7 +184,7 @@
             }
         }
         .f6{
-            width: 340px;
+            width:618px;
             line-height: 40px;
             overflow: hidden;
             p{
