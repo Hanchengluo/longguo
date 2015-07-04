@@ -65,3 +65,12 @@ $(document).ready(function() {
         $('.thechart').eq(index).show().siblings().hide();
     });
 });
+
+$(document).ready(function() {
+    var $tab_li = $('#tab2 a');
+    $tab_li.hover(function() {
+        $(this).addClass('pass').siblings().removeClass('pass');
+        var index = $tab_li.index(this);
+        $('.chart-tab1').eq(index).show().siblings().hide();
+    });
+});
