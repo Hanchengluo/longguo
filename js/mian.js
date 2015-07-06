@@ -58,10 +58,35 @@ $(function() {
     })
     //tab
 $(document).ready(function() {
-    var $tab_li = $('#tab1 a, #tab2 a, #tab3 a, #tab4 a');
+    var $tab_li = $('#tab1 a');
     $tab_li.hover(function() {
         $(this).addClass('pass').siblings().removeClass('pass');
         var index = $tab_li.index(this);
-        $('.thechart,.chart-tab2,.chart-tab3,.chart-tab4' ).eq(index).show().siblings().hide();
+        $('.thechart' ).eq(index).show().siblings().hide();
+    });
+});
+
+$(document).ready(function() {
+    var $tab_li = $('#tab2 a');
+    $tab_li.hover(function() {
+        $(this).addClass('pass').siblings().removeClass('pass');
+        var index = $tab_li.index(this);
+        $('.chart-tab2' ).eq(index).show().siblings().hide();
+    });
+});
+$(document).ready(function() {
+    var $tab_li = $('#tab3 a');
+    $tab_li.hover(function() {
+        $(this).addClass('pass').siblings().removeClass('pass');
+        var index = $tab_li.index(this);
+        $('.chart-tab3' ).eq(index).show().siblings().hide();
+    });
+});
+$(document).ready(function() {
+    var $tab_li = $('#tab4 a');
+    $tab_li.hover(function() {
+        $(this).addClass('pass').siblings().removeClass('pass');
+        var index = $tab_li.index(this);
+        $('.chart-tab4' ).eq(index).show().siblings().hide();
     });
 });
