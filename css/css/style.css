@@ -859,10 +859,14 @@ h3 {
   color: #ff9900;
   font-size: 24px;
 }
-#tab2 {
+#tab2,
+#tab3,
+#tab4 {
   text-align: center;
 }
-#tab2 a {
+#tab2 a,
+#tab3 a,
+#tab4 a {
   display: inline-block;
   padding: 2px 5px;
   background: #535353;
@@ -871,7 +875,11 @@ h3 {
   margin: 0 4px;
 }
 #tab2 .pass,
-#tab2 a:hover {
+#tab3 .pass,
+#tab4 .pass,
+#tab2 a:hover,
+#tab3 a:hover,
+#tab4 a:hover {
   background: #4998f4;
   color: #ffffff;
 }
