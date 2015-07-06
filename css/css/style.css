@@ -801,19 +801,19 @@ h3 {
   border-bottom: #b5b5b5 solid 1px;
 }
 .bidhistory .bid-tit {
-  width: 290px;
+  width: 316px;
   height: 46px;
   margin: 0 auto;
   color: #535353;
 }
 .bidhistory .bid-scroll {
-  width: 290px;
+  width: 316px;
   height: 266px;
   margin: 0 auto;
   color: #b5b5b5;
 }
 .bidhistory .bid-scroll li {
-  width: 296px;
+  width: 316px;
   height: 46px;
 }
 .bidhistory .bid-scroll li:hover span {
@@ -823,11 +823,17 @@ h3 {
 .bidhistory span {
   display: inline-block;
   float: left;
-  width: 72px;
+  width: 90px;
   height: 46px;
   line-height: 46px;
   text-align: center;
   font-size: 16px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.bidhistory .product-tit {
+  width: 136px !important;
 }
 .vol-collect {
   width: 100%;

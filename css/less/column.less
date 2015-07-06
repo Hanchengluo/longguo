@@ -169,18 +169,18 @@
         border-bottom: @c_hui solid 1px;
     }
     .bid-tit{
-        width: 290px;
+        width: 316px;
         height: 46px;
         margin: 0 auto;
         color: @c_hei;
     }
     .bid-scroll{
-        width: 290px;
+        width: 316px;
         height: 266px;
         margin: 0 auto;
         color:@c_hui;
         li{
-            width: 296px;
+            width: 316px;
             height: 46px;
             &:hover span{
                 background: @c_cheng;
@@ -191,11 +191,17 @@
     span{
         display: inline-block;
         float: left;
-        width: 72px;
+        width: 90px;
         height:46px;
         line-height: 46px;
         text-align: center;
         font-size: @fz16;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .product-tit{
+        width: 136px !important;
     }
 
 }
